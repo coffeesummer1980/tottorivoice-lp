@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>とっとりVOICE | 鳥取の魅力を届ける地域メディア</title>
+    <meta name="description"
+        content="とっとりVOICEは、鳥取の魅力を再発見し、あなたの暮らしに新しい「楽しみ」をプラスする地域メディアです。企業PR動画制作、4コマ漫画、地域情報発信を通じて鳥取の素晴らしさをお届けします。">
+    <link rel="icon" href="images/icon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;500;700;900&family=M+PLUS+Rounded+1c:wght@400;500;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- ナビゲーション -->
+    <nav id="navbar" class="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <img src="images/icon.png" alt="とっとりVOICE" class="nav-logo-img">
+                <span class="nav-logo-text">とっとりVOICE</span>
+            </a>
+            <button id="menu-toggle" class="menu-toggle" aria-label="メニュー">
+                <span></span><span></span><span></span>
+            </button>
+            <ul id="nav-links" class="nav-links">
+                <li><a href="#about">とっとりVOICEとは</a></li>
+                <li><a href="#personality">パーソナリティ</a></li>
+                <li><a href="#services">コンテンツ</a></li>
+                <li><a href="#reasons">選ばれる理由</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ヒーローセクション -->
+    <section id="hero" class="hero">
+        <div class="hero-bg-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+            <div class="shape shape-5"></div>
+        </div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="badge-dot"></span>
+                    鳥取発の地域メディア
+                </div>
+                <h1 class="hero-title">
+                    <span class="title-line">鳥取の魅力、</span>
+                    <span class="title-line title-accent">再発見。</span>
+                </h1>
+                <p class="hero-subtitle">あなたの暮らしに、新しい「楽しみ」をプラスします。</p>
+                <p class="hero-description">
+                    地元で長年愛されるお店のランチから、休日にふらっと訪れたい絶景スポット、<br class="pc-only">
+                    日々の暮らしに役立つ便利な情報まで。<br>
+                    さまざまな角度から鳥取の"いいね！"をご紹介しています。
+                </p>
+                <div class="hero-buttons">
+                    <a href="https://www.youtube.com/@tottorivoice" target="_blank" class="btn btn-primary"
+                        id="hero-youtube-btn">
+                        <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M23.5 6.5a3.07 3.07 0 0 0-2.16-2.17C19.5 3.86 12 3.86 12 3.86s-7.5 0-9.34.47A3.07 3.07 0 0 0 .5 6.5 32.1 32.1 0 0 0 0 12a32.1 32.1 0 0 0 .5 5.5 3.07 3.07 0 0 0 2.16 2.17c1.84.47 9.34.47 9.34.47s7.5 0 9.34-.47a3.07 3.07 0 0 0 2.16-2.17A32.1 32.1 0 0 0 24 12a32.1 32.1 0 0 0-.5-5.5zM9.6 15.6V8.4L15.84 12 9.6 15.6z" />
+                        </svg>
+                        YouTubeを見る
+                    </a>
+                    <a href="#about" class="btn btn-secondary" id="hero-about-btn">
+                        もっと知る
+                        <svg class="btn-icon-right" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M12 5v14M5 12l7 7 7-7" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-character-wrapper">
+                    <img src="images/yuikun-mic-yt.png" alt="ゆいくん" class="hero-character" id="hero-character">
+                    <div class="character-glow"></div>
+                </div>
+                <div class="floating-card card-1">
+                    <span class="card-emoji">🎬</span>
+                    <span class="card-text">企業PR動画</span>
+                </div>
+                <div class="floating-card card-2">
+                    <span class="card-emoji">📖</span>
+                    <span class="card-text">4コマ漫画</span>
+                </div>
+                <div class="floating-card card-3">
+                    <span class="card-emoji">🍽️</span>
+                    <span class="card-text">グルメ情報</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <div class="scroll-mouse">
+                <div class="scroll-dot"></div>
+            </div>
+            <span>SCROLL</span>
+        </div>
+    </section>
+
+    <!-- とっとりVOICEとは -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">ABOUT</span>
+                <h2 class="section-title">とっとりVOICEとは</h2>
+                <div class="section-divider">
+                    <img src="images/yuikun-pikan.png" alt="ゆいくん" class="divider-character">
+                </div>
+            </div>
+            <div class="about-content">
+                <div class="about-main-text">
+                    <div class="about-quote">
+                        <span class="quote-mark">"</span>
+                        <p>鳥取県の本当の魅力。<br>それは、この街で懸命に、<br class="sp-only">そして楽しく働く<br>「人」そのものです。</p>
+                        <span class="quote-mark quote-mark-end">"</span>
+                    </div>
+                    <p class="about-description">
+                        『とっとりVOICE』は、地元企業のありのままの姿を、
+                        <strong>映像</strong>や<strong>マンガ</strong>など、多彩なコンテンツを通じてお届けする地域メディアです。
+                    </p>
+                    <p class="about-description">
+                        YouTubeでは、経営者の熱意や職場の空気をリアルな「声」として。
+                        4コマ漫画では、日々の仕事の中に隠れたクスッと笑える「物語」を。
+                    </p>
+                    <p class="about-description highlight">
+                        画面越しに伝わる鳥取の人の温かさに、きっとあなたも出会えるはずです。
+                    </p>
+                </div>
+                <div class="about-image-area">
+                    <img src="images/top.jpg" alt="とっとりVOICE" class="about-hero-image">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ミッション -->
+    <section id="mission" class="mission">
+        <div class="container">
+            <div class="mission-content">
+                <span class="section-label light">MISSION</span>
+                <h2 class="mission-title">鳥取から、信用と挑戦の<br>エコシステムをつくる</h2>
+                <p class="mission-description">
+                    私たちは、地域に根ざした企業や個人が、信頼を得ながら挑戦を続けられる仕組みを鳥取から広げていきます。
+                    「伝え方がわからない」「予算がない」と悩む事業者に寄り添い、低価格で本質的なPR支援を提供。
+                    オンラインを活用し、小さな声を確かな発信力に変える土壌を築きます。
+                </p>
+                <p class="mission-tagline">地方からでも全国へ。<br>私たちは挑戦の循環を支える存在でありたいと考えています。</p>
+            </div>
+            <div class="mission-character">
+                <img src="images/yuikun-yatta.png" alt="ゆいくん" class="mission-character-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- パーソナリティ紹介 -->
+    <section id="personality" class="personality">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">PERSONALITY</span>
+                <h2 class="section-title">パーソナリティ紹介</h2>
+                <div class="section-divider">
+                    <img src="images/yuikun-love.png" alt="ゆいくん" class="divider-character">
+                </div>
+            </div>
+            <div class="personality-card">
+                <div class="personality-image-area">
+                    <img src="images/yukarin.png" alt="田中友香理" class="personality-photo">
+                    <div class="personality-decoration">
+                        <div class="deco-circle deco-1"></div>
+                        <div class="deco-circle deco-2"></div>
+                    </div>
+                </div>
+                <div class="personality-info">
+                    <div class="personality-name-area">
+                        <h3 class="personality-name">田中 友香理</h3>
+                        <span class="personality-name-en">Yukari Tanaka</span>
+                    </div>
+                    <div class="personality-tags">
+                        <span class="tag">フリーアナウンサー</span>
+                        <span class="tag">鳥取県公認インフルエンサー</span>
+                        <span class="tag">米子市ふるさとPR大使</span>
+                    </div>
+                    <p class="personality-bio">
+                        フリーアナウンサーとしてテレビ・ラジオを中心に長年活躍。
+                        全国各地のテレビ・ラジオでも鳥取県のPRナビゲーターとして出演。
+                    </p>
+                    <p class="personality-bio">
+                        鳥取県での<strong>圧倒的な知名度と信頼感</strong>が強み。
+                        地域に根ざした発信を続け、多くのファンから支持されています。
+                    </p>
+                    <p class="personality-bio accent">
+                        アラフィフ世代のワーキングマザーとして、<br class="pc-only">
+                        視聴者と等身大の目線で語りかけます。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- コンテンツ・サービス紹介 -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">CONTENTS</span>
+                <h2 class="section-title">とっとりVOICEの3本柱</h2>
+                <div class="section-divider">
+                    <img src="images/yuikun-mic.png" alt="ゆいくん" class="divider-character">
+                </div>
+            </div>
+            <div class="services-grid">
+                <!-- サービス1: 企業PR動画 -->
+                <div class="service-card" id="service-video">
+                    <div class="service-icon-area">
+                        <div class="service-icon-bg"></div>
+                        <span class="service-number">01</span>
+                    </div>
+                    <h3 class="service-title">企業PR動画</h3>
+                    <p class="service-subtitle">企業紹介チャンネルの運営</p>
+                    <p class="service-description">
+                        鳥取を中心とした地元企業様の魅力を、"動画"という形でわかりやすく表現し、広く発信するPR支援サービスです。
+                    </p>
+                    <ul class="service-features">
+                        <li>
+                            <span class="feature-icon">🎬</span>
+                            <span>企業理念・創業エピソードの映像化</span>
+                        </li>
+                        <li>
+                            <span class="feature-icon">👥</span>
+                            <span>社内の雰囲気・働く人の表情を撮影</span>
+                        </li>
+                        <li>
+                            <span class="feature-icon">📱</span>
+                            <span>SNS向けショート動画も制作</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- サービス2: 4コマ漫画 -->
+                <div class="service-card" id="service-manga">
+                    <div class="service-icon-area">
+                        <div class="service-icon-bg"></div>
+                        <span class="service-number">02</span>
+                    </div>
+                    <h3 class="service-title">鳥取を知る4コマ図鑑</h3>
+                    <p class="service-subtitle">マンガで届ける鳥取の日常</p>
+                    <p class="service-description">
+                        日々の仕事の中に隠れたクスッと笑える「物語」を4コマ漫画でお届け。画面越しに伝わる鳥取の人の温かさをお楽しみください。
+                    </p>
+                    <ul class="service-features">
+                        <li>
+                            <span class="feature-icon">📖</span>
+                            <span>全10話以上の4コマ漫画を連載中</span>
+                        </li>
+                        <li>
+                            <span class="feature-icon">😊</span>
+                            <span>地元企業のリアルな日常を描写</span>
+                        </li>
+                        <li>
+                            <span class="feature-icon">🌟</span>
+                            <span>動画＋漫画の2視点で企業を紹介</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- サービス3: 地域情報発信 -->
+                <div class="service-card" id="service-community">
+                    <div class="service-icon-area">
+                        <div class="service-icon-bg"></div>
+                        <span class="service-number">03</span>
+                    </div>
+                    <h3 class="service-title">鳥取の暮らし情報</h3>
+                    <p class="service-subtitle">グルメ・観光・暮らしのヒント</p>
+                    <p class="service-description">
+                        地元で長年愛されるお店のランチから、休日にふらっと訪れたい絶景スポット、日々の暮らしに役立つ便利な情報までお届け。
+                    </p>
+                    <ul class="service-features">
+                        <li>
+                            <span class="feature-icon">🍽️</span>
+                            <span>山陰グルメ・ランチスポット紹介</span>
+                        </li>
+                        <li>
+                            <span class="feature-icon">🏔️</span>
+                            <span>鳥取の絶景・観光スポット</span>
+                        </li>
+                        <li>
+                            <span class="feature-icon">💡</span>
+                            <span>暮らしに役立つ地域情報</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 事業者様向けセクション -->
+    <section id="for-business" class="for-business">
+        <div class="container">
+            <div class="business-content">
+                <div class="business-text">
+                    <div class="business-label">
+                        <img src="images/miyattsi.png" alt="みやっち" class="business-label-icon">
+                        <span>企業・店舗の皆様へ</span>
+                    </div>
+                    <h2 class="business-title">
+                        「技術には自信がある。<br>商品も、想いも。」
+                    </h2>
+                    <p class="business-quote">
+                        「それなのに、なかなか知ってもらえない…」
+                    </p>
+                    <p class="business-description">
+                        私たちは、そんな鳥取の素晴らしい事業者様が持つ、言葉だけでは伝えきれないこだわり、情熱、
+                        背景にあるストーリーを、心に響く企業PR映像に凝縮します。
+                    </p>
+                    <p class="business-description">
+                        Webサイトやsnで、あなたのビジネスの"物語"を届けませんか？
+                    </p>
+                </div>
+                <div class="business-use-cases">
+                    <h3 class="use-case-title">こんな活用シーンに</h3>
+                    <div class="use-case-grid">
+                        <div class="use-case-card">
+                            <div class="use-case-icon">👔</div>
+                            <h4>採用活動に活用</h4>
+                            <p>「会社の雰囲気がよくわかった」との声も。求人応募の増加に。</p>
+                        </div>
+                        <div class="use-case-card">
+                            <div class="use-case-icon">🤝</div>
+                            <h4>商談時の紹介ツール</h4>
+                            <p>初対面の相手にも、企業イメージを効果的に伝えられます。</p>
+                        </div>
+                        <div class="use-case-card">
+                            <div class="use-case-icon">🏢</div>
+                            <h4>信頼構築</h4>
+                            <p>「顔が見える会社」としてのブランディングに貢献します。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 選ばれる理由 -->
+    <section id="reasons" class="reasons">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">REASON</span>
+                <h2 class="section-title">選ばれる理由</h2>
+                <div class="section-divider">
+                    <img src="images/yuikun-fumufumu.png" alt="ゆいくん" class="divider-character">
+                </div>
+            </div>
+            <div class="reasons-grid">
+                <div class="reason-card" id="reason-price">
+                    <div class="reason-number">01</div>
+                    <div class="reason-icon-area">
+                        <span class="reason-icon">💰</span>
+                    </div>
+                    <h3 class="reason-title">低価格でご提供</h3>
+                    <p class="reason-description">
+                        地域密着で無駄を省いた運営体制により、親身で継続的な支援を低価格でご提供しています。
+                        「予算がない」という悩みにも寄り添います。
+                    </p>
+                </div>
+                <div class="reason-card" id="reason-local">
+                    <div class="reason-number">02</div>
+                    <div class="reason-icon-area">
+                        <span class="reason-icon">🏡</span>
+                    </div>
+                    <h3 class="reason-title">地元密着</h3>
+                    <p class="reason-description">
+                        鳥取を拠点に、地元企業・団体と共に歩んできました。顔の見える関係性を大切にし、
+                        信頼と実績を積み重ねています。いつでも身近で相談しやすい存在です。
+                    </p>
+                </div>
+                <div class="reason-card" id="reason-influence">
+                    <div class="reason-number">03</div>
+                    <div class="reason-icon-area">
+                        <span class="reason-icon">📢</span>
+                    </div>
+                    <h3 class="reason-title">圧倒的な発信力</h3>
+                    <p class="reason-description">
+                        パーソナリティの田中友香理は鳥取県公認インフルエンサー。
+                        地域で培った確かな発信力で、あなたの企業の魅力を広く届けます。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- フッター -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/icon.png" alt="とっとりVOICE" class="footer-logo-img">
+                    <span class="footer-logo-text">とっとりVOICE</span>
+                </div>
+                <p class="footer-operator">運営：リバイブレイト合同会社</p>
+                <div class="footer-links">
+                    <a href="https://www.youtube.com/@tottorivoice" target="_blank">YouTube</a>
+                    <a href="https://www.instagram.com/tottorivoice/" target="_blank">Instagram</a>
+                    <a href="https://reviverate.net/" target="_blank">公式サイト</a>
+                </div>
+                <p class="footer-copy">© リバイブレイト合同会社. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
